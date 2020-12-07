@@ -1,0 +1,57 @@
+// Colors
+$white: #EAEAEA;
+$black: #051829;
+$green: #00AD99;
+$blue: #004990;
+$yellow: #BA9765;
+$gray: #D8D8D8;
+
+$backgroundWhite: #EAEAEA;
+$backgroundWhite: #D9F3F0;
+
+
+// Fonts
+$acumin: "Acumin Pro", sans-serif;
+$muli: "Muli", sans-serif;
+
+
+// Font Size
+$fontSizeXS: 16px;
+$fontSizeSM: 18px;
+$fontSizeMD: 24px;
+$fontSizeLG: 36px;
+$fontSizeXl: 80px;
+
+$specSizeSM: 22px;
+$specSizeMD: 28px;
+$specSizeLG: 48px;
+
+
+// Media
+$xl: 1280px;
+$lg: 991.98px;
+$md: 767.98px;
+$sm: 575.98px;
+$xs: 379.98px;
+
+$container: 1160px;
+
+//---- extends ----
+.elemCenter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+

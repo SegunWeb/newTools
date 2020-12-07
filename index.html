@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include Head.html %}
+    <link rel="stylesheet" href="/src/css/homepage.css"/>
+  </head>
+  <body>
+    {% include component/header.html %}
+    <main>
+      {% include homepage/main.html %}
+    </main>
+    {% include component/footer.html %}
+    {% lazyScript %}
+    {% includeScript "./src/js/homepage.js" %}
+  </body>
+</html>

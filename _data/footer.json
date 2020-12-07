@@ -1,0 +1,29 @@
+{
+  "logo": "/src/image/logo/logo.png",
+  "title": "",
+  "copyright": "MADE WITH &nbsp;&#10084;&#65039; IN CANADA",
+  "links": [
+    {
+      "name": "Terms and Conditions",
+      "url": "#"
+    },
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy"
+    }
+  ],
+  "menu": [
+    {
+      "link_name": "Product",
+      "link_href": "/product/?name=Interac-E-Transfer"
+    },
+    {
+      "link_name": "Payments",
+      "link_href": "/payment"
+    },
+    {
+      "link_name": "About",
+      "link_href": "/about"
+    }
+  ]
+}

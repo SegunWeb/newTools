@@ -1,0 +1,36 @@
+<footer class="footer">
+    <div class="footer_container">
+        <div class="footer_left_section">
+            <nav class="footer_menu">
+                <ul class="footer_menu__list">
+                    {% for item in footer.menu %}
+                    <li class="footer_menu__item">
+                        <a href="{{item.link_href}}">{{item.link_name}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+            <div class="footer-info">
+                <p class="footer-info__copy">© Kingspan 2020. All rights reserved.</p>
+                <p class="footer-info__report">Annual Report & Financial Statements 2020</p>
+            </div>
+            <div class="footer_socials">
+                <ul class="footer_socials__list">
+                    {% for item in footer.socials %}
+                    <li class="footer_socials__item">
+                        <a href={{item.link_href}}>{{item.link_name}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer_right_section">
+            <div class="footer_back_link">
+                <a href="#" class="link_back"><span>Back to Main Site</span></a>
+                <a href="#" class="footer_logo"><img src={{footer.logo}} alt="logo"></a>
+            </div>
+        </div>
+
+    </div>
+</footer>

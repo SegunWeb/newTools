@@ -1,0 +1,13 @@
+//generic
+@import "../generic/variables";
+@import "../generic/reset";
+@import "../generic/fonts";
+@import "../generic/general";
+
+//elements
+@import "../component/button.scss";
+@import "../component/header.scss";
+@import "../component/footer.scss";
+
+//page section
+@import "items/main_home";
